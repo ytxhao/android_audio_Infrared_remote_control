@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+        <Button
+        android:id="@+id/bt_codec_type"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:text="RC5" />
+    
+    <Button
+        android:id="@+id/bt_shut_down"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dip"
+        android:text="关机" />
+
+    <Button
+        android:id="@+id/bt_vol_up"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_shut_down"
+        android:text="vol+" />
+
+    <Button
+        android:id="@+id/bt_dir_up"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_shut_down"
+        android:layout_toRightOf="@id/bt_vol_up"
+        android:text="up" />
+
+    <Button
+        android:id="@+id/bt_ch_up"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_shut_down"
+        android:layout_toRightOf="@id/bt_dir_up"
+        android:text="ch+" />
+
+    <Button
+        android:id="@+id/bt_dir_left"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_ch_up"
+        android:text="left" />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_ch_up"
+        android:layout_toRightOf="@id/bt_dir_left"
+        android:text="ok" />
+
+    <Button
+        android:id="@+id/bt_dir_right"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_ch_up"
+        android:layout_toRightOf="@id/bt_ok"
+        android:text="right" />
+    
+        <Button
+        android:id="@+id/bt_vol_down"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_dir_right"
+        android:text="vol-" />
+        
+                <Button
+        android:id="@+id/bt_dir_down"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_dir_right"
+        android:layout_toRightOf="@id/bt_vol_down"
+        android:text="down" />
+                
+                                <Button
+        android:id="@+id/bt_ch_down"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_dir_right"
+        android:layout_toRightOf="@id/bt_dir_down"
+        android:text="ch-" />
+
+    <Button
+        android:id="@+id/bt_num1"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dip"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/bt_num2"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dip"
+        android:layout_toRightOf="@id/bt_num1"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/bt_num3"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dip"
+        android:layout_toRightOf="@id/bt_num2"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/bt_num4"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num1"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/bt_num5"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num1"
+        android:layout_toRightOf="@id/bt_num4"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/bt_num6"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num1"
+        android:layout_toRightOf="@id/bt_num5"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/bt_num7"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num4"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/bt_num8"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num4"
+        android:layout_toRightOf="@id/bt_num7"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/bt_num9"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num4"
+        android:layout_toRightOf="@id/bt_num8"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/bt_menu"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num7"
+        android:text="menu" />
+
+    <Button
+        android:id="@+id/bt_num0"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num7"
+        android:layout_toRightOf="@id/bt_menu"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/bt_exit"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_num7"
+        android:layout_toRightOf="@id/bt_num0"
+        android:text="exit" />
+
+</RelativeLayout>
